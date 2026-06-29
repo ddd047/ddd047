@@ -1,153 +1,124 @@
-<div align="center">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&family=Rajdhani:wght@400;600&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+.sp-wrap{background:#0a0005;font-family:'Rajdhani',sans-serif;color:#e8e0f0;border-radius:12px;padding:2rem 1.5rem;position:relative;overflow:hidden;border:1px solid #2a0a20}
+.web-corner{position:absolute;opacity:0.18;pointer-events:none}
+.web-tl{top:0;left:0}
+.web-tr{top:0;right:0;transform:scaleX(-1)}
+.sp-header{text-align:center;padding:1.5rem 0 1rem;position:relative}
+.sp-eyebrow{font-family:'Share Tech Mono',monospace;font-size:0.72rem;color:#cc0000;letter-spacing:5px;text-transform:uppercase;margin-bottom:0.8rem}
+.sp-title{font-family:'Bebas Neue',cursive;font-size:3.2rem;letter-spacing:3px;line-height:1;color:#e8e0f0;animation:spShine 2.5s ease-in-out infinite}
+@keyframes spShine{0%,100%{color:#ffffff;text-shadow:0 0 8px #cc0000,0 0 20px #880000}50%{color:#ff4444;text-shadow:0 0 12px #ff0000,0 0 30px #cc0000}}
+.sp-sub{font-family:'Share Tech Mono',monospace;font-size:0.75rem;color:#880000;letter-spacing:4px;margin-top:4px;text-transform:uppercase}
+.sp-divider{width:100%;height:1px;background:#1a0010;margin:1.2rem 0;position:relative;display:flex;align-items:center;justify-content:center}
+.sp-divider::before,.sp-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,#cc0000)}
+.sp-divider::before{margin-right:10px}
+.sp-divider::after{margin-left:10px}
+.sp-diamond{width:8px;height:8px;background:#cc0000;transform:rotate(45deg);flex-shrink:0}
+.sp-section-label{font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#cc0000;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.8rem;display:flex;align-items:center;gap:8px}
+.sp-section-label::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,#cc000033,transparent)}
+.sp-terminal{background:#0f0008;border:1px solid #2a0015;border-radius:10px;padding:1.2rem;min-height:130px;position:relative}
+.sp-terminal::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,#440000,#cc0000,#440000);animation:scanR 3s linear infinite}
+@keyframes scanR{0%,100%{opacity:0.5}50%{opacity:1}}
+.sp-prompt{font-family:'Share Tech Mono',monospace;font-size:0.75rem;color:#880000;margin-bottom:0.6rem}
+.sp-prompt span{color:#cc0000}
+#sp-type{font-size:0.95rem;color:#e8e0f0;line-height:1.7;min-height:3.2rem}
+.sp-cursor{display:inline-block;width:2px;height:1em;background:#cc0000;vertical-align:text-bottom;margin-left:1px;animation:blink 0.7s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.sp-dots{display:flex;gap:5px;margin-top:0.8rem;justify-content:flex-end}
+.sp-dot{width:7px;height:7px;border-radius:50%;background:#2a0015;cursor:pointer;transition:background 0.3s}
+.sp-dot.active{background:#cc0000}
+.sp-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:1.2rem 0}
+.sp-stat{background:#0f0008;border:1px solid #2a0015;border-radius:10px;padding:0.9rem;text-align:center;cursor:pointer;transition:border-color 0.3s,transform 0.2s;position:relative;overflow:hidden}
+.sp-stat:hover{border-color:#cc0000;transform:translateY(-3px)}
+.sp-stat-ico{font-size:22px;margin-bottom:5px}
+.sp-stat-val{font-family:'Bebas Neue',cursive;font-size:1.5rem;color:#cc0000;line-height:1}
+.sp-stat-lbl{font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#660022;letter-spacing:2px;text-transform:uppercase}
+.sp-stat-tip{position:absolute;bottom:0;left:0;right:0;background:rgba(204,0,0,0.15);color:#ff7777;font-size:0.68rem;padding:5px;opacity:0;transform:translateY(5px);transition:all 0.3s;font-family:'Share Tech Mono',monospace}
+.sp-stat:hover .sp-stat-tip{opacity:1;transform:translateY(0)}
+.sp-skills{margin:1.2rem 0}
+.sp-skill-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.sp-skill-name{font-family:'Share Tech Mono',monospace;font-size:0.75rem;color:#cc6677;width:120px;flex-shrink:0}
+.sp-bar-bg{flex:1;height:7px;background:#1a0010;border-radius:4px;overflow:hidden;border:1px solid #2a0015}
+.sp-bar-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,#440000,#cc0000);width:0;transition:width 1.2s ease}
+.sp-pct{font-family:'Share Tech Mono',monospace;font-size:0.72rem;color:#cc0000;width:30px;text-align:right}
+.sp-socials{display:flex;gap:8px;flex-wrap:wrap;margin-top:1.2rem;justify-content:center}
+.sp-btn{padding:6px 16px;border-radius:20px;font-family:'Share Tech Mono',monospace;font-size:0.73rem;letter-spacing:1px;cursor:pointer;border:1px solid #cc0000;color:#cc0000;background:transparent;text-decoration:none;transition:all 0.3s}
+.sp-btn:hover{background:#cc000022}
+.sp-footer{text-align:center;margin-top:1.5rem;padding-top:0.8rem;border-top:1px solid #1a0010;font-family:'Share Tech Mono',monospace;font-size:0.68rem;color:#440022;letter-spacing:2px}
+</style>
 
-<!-- WEB CORNERS -->
-<svg width="120" height="120" viewBox="0 0 120 120" style="position:absolute;top:0;left:0;opacity:0.18" xmlns="http://www.w3.org/2000/svg">
-<g stroke="#cc0000" stroke-width="0.8" fill="none">
-<line x1="0" y1="0" x2="120" y2="120"/><line x1="0" y1="0" x2="80" y2="120"/><line x1="0" y1="0" x2="40" y2="120"/><line x1="0" y1="0" x2="0" y2="120"/><line x1="0" y1="0" x2="120" y2="80"/><line x1="0" y1="0" x2="120" y2="40"/>
-<path d="M0 20 Q10 10 20 0"/><path d="M0 40 Q20 20 40 0"/><path d="M0 60 Q30 30 60 0"/><path d="M0 80 Q40 40 80 0"/><path d="M0 100 Q50 50 100 0"/><path d="M0 120 Q60 60 120 0"/>
-</g>
-</svg>
+<div class="sp-wrap">
+  <svg class="web-corner web-tl" width="120" height="120" viewBox="0 0 120 120">
+    <g stroke="#cc0000" stroke-width="0.8" fill="none">
+      <line x1="0" y1="0" x2="120" y2="120"/><line x1="0" y1="0" x2="80" y2="120"/><line x1="0" y1="0" x2="40" y2="120"/><line x1="0" y1="0" x2="0" y2="120"/><line x1="0" y1="0" x2="120" y2="80"/><line x1="0" y1="0" x2="120" y2="40"/>
+      <path d="M0 20 Q10 10 20 0"/><path d="M0 40 Q20 20 40 0"/><path d="M0 60 Q30 30 60 0"/><path d="M0 80 Q40 40 80 0"/><path d="M0 100 Q50 50 100 0"/><path d="M0 120 Q60 60 120 0"/><path d="M20 120 Q70 70 120 20"/><path d="M40 120 Q80 80 120 40"/><path d="M60 120 Q90 90 120 60"/><path d="M80 120 Q100 100 120 80"/>
+    </g>
+  </svg>
+  <svg class="web-corner web-tr" width="120" height="120" viewBox="0 0 120 120">
+    <g stroke="#cc0000" stroke-width="0.8" fill="none">
+      <line x1="0" y1="0" x2="120" y2="120"/><line x1="0" y1="0" x2="80" y2="120"/><line x1="0" y1="0" x2="40" y2="120"/><line x1="0" y1="0" x2="0" y2="120"/><line x1="0" y1="0" x2="120" y2="80"/><line x1="0" y1="0" x2="120" y2="40"/>
+      <path d="M0 20 Q10 10 20 0"/><path d="M0 40 Q20 20 40 0"/><path d="M0 60 Q30 30 60 0"/><path d="M0 80 Q40 40 80 0"/><path d="M0 100 Q50 50 100 0"/><path d="M0 120 Q60 60 120 0"/><path d="M20 120 Q70 70 120 20"/><path d="M40 120 Q80 80 120 40"/><path d="M60 120 Q90 90 120 60"/><path d="M80 120 Q100 100 120 80"/>
+    </g>
+  </svg>
 
-<!-- EYEBROW -->
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=3000&pause=1000&color=CC0000&center=true&vCenter=true&width=500&lines=⬡+your+friendly+neighborhood+dev+⬡" alt="eyebrow" />
-</p>
+  <div class="sp-header">
+    <div class="sp-eyebrow">⬡ your friendly neighborhood dev ⬡</div>
+    <div class="sp-title">Welcome to My GitHub</div>
+    <div class="sp-sub">// ddd047 · with great code comes great responsibility //</div>
+  </div>
 
-<!-- MAIN TITLE — glowing Spider-Man red -->
-<img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=60&duration=4000&pause=2000&color=FF2222&center=true&vCenter=true&width=700&lines=Welcome+to+My+GitHub" alt="Welcome to My GitHub" />
+  <div class="sp-divider"><div class="sp-diamond"></div></div>
 
-<!-- SUBTITLE -->
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=880000&center=true&vCenter=true&width=600&lines=//+ddd047+·+with+great+code+comes+great+responsibility+//" alt="subtitle" />
-</p>
+  <div class="sp-section-label">〉 about.me</div>
+  <div class="sp-terminal">
+    <div class="sp-prompt"><span>ddd047</span>@spidey-lab:~$ ./bio.sh</div>
+    <div id="sp-type"><span class="sp-cursor"></span></div>
+    <div class="sp-dots" id="sp-dots"></div>
+  </div>
 
-<!-- SPIDER BADGE ROW -->
-<p>
-  <img src="https://img.shields.io/badge/🕷%20Spider--Dev-ddd047-cc0000?style=for-the-badge&labelColor=0a0005&color=cc0000" />
-  <img src="https://img.shields.io/badge/AI%2FML-Enthusiast-cc0000?style=for-the-badge&labelColor=0a0005&color=880000" />
-  <img src="https://img.shields.io/badge/B.Tech-Student-cc0000?style=for-the-badge&labelColor=0a0005&color=cc0000" />
-</p>
+  <div style="margin-top:1.2rem">
+    <div class="sp-section-label">〉 profile.stats</div>
+    <div class="sp-stats">
+      <div class="sp-stat"><div class="sp-stat-ico">🤖</div><div class="sp-stat-val">AI/ML</div><div class="sp-stat-lbl">Enthusiast</div><div class="sp-stat-tip">Spinning neural webs</div></div>
+      <div class="sp-stat"><div class="sp-stat-ico">🎓</div><div class="sp-stat-val">B.Tech</div><div class="sp-stat-lbl">Student</div><div class="sp-stat-tip">Climbing the academic wall</div></div>
+      <div class="sp-stat"><div class="sp-stat-ico">🔴</div><div class="sp-stat-val">100%</div><div class="sp-stat-lbl">Dedication</div><div class="sp-stat-tip">Spider-sense for bugs</div></div>
+    </div>
+  </div>
 
----
+  <div class="sp-skills">
+    <div class="sp-section-label">〉 skills.web</div>
+    <div id="sp-skills-container"></div>
+  </div>
 
-<!-- WEB DIVIDER SVG -->
-<svg width="600" height="18" viewBox="0 0 600 18" xmlns="http://www.w3.org/2000/svg">
-  <line x1="0" y1="9" x2="260" y2="9" stroke="#cc0000" stroke-width="0.8" opacity="0.6"/>
-  <polygon points="280,2 292,9 280,16 268,9" fill="#cc0000" opacity="0.9"/>
-  <line x1="300" y1="9" x2="600" y2="9" stroke="#cc0000" stroke-width="0.8" opacity="0.6"/>
-</svg>
+  <div class="sp-socials">
+    <a class="sp-btn" href="#">🕸 GitHub</a>
+    <a class="sp-btn" href="#">💼 LinkedIn</a>
+    <a class="sp-btn" href="#">🐦 Twitter/X</a>
+    <a class="sp-btn" href="#">📧 Email</a>
+    <a class="sp-btn" href="#">📝 Blog</a>
+  </div>
 
+  <div class="sp-footer">🕷 ddd047 · swinging through code since day one 🕷</div>
 </div>
 
----
-
-## 🕷️ `ddd047@spidey-lab:~$` ./bio.sh
-
-<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&size=18&duration=3500&pause=800&color=E8E0F0&center=false&vCenter=true&multiline=false&width=750&lines=🤖+AI%2FML+enthusiast+—+I+spin+neural+networks+the+way+Spidey+spins+webs.;🎓+B.Tech+student+with+a+sixth+sense+for+machine+learning.;🧠+Sharp+instincts+for+patterns+in+chaotic+data.;🔬+Deep+diving+into+NLP%2C+computer+vision+%26+deep+learning.;🌆+By+day+a+student%2C+by+night+training+models+on+my+laptop." alt="bio typing" />
-
----
-
-<div align="center">
-
-## ⬡ Profile Stats
-
-| 🤖 AI / ML | 🎓 Degree | 🔴 Dedication |
-|:---:|:---:|:---:|
-| **Enthusiast** | **B.Tech Student** | **100%** |
-| Spinning neural webs | Climbing the academic wall | Spider-sense for bugs |
-
-</div>
-
----
-
-## 🕸️ Skill Web
-
-```
-Machine Learning  ████████████████████░░░░  82%
-Python            █████████████████████░░░░  88%
-Deep Learning     ██████████████████░░░░░░░  75%
-Data Analysis     ████████████████████░░░░░  79%
-NLP / LLMs        █████████████████░░░░░░░░  70%
-Math & Stats      ██████████████████░░░░░░░  73%
-```
-
----
-
-## 🔴 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ddd047&show_icons=true&theme=dark&bg_color=0a0005&title_color=cc0000&icon_color=cc0000&text_color=e8e0f0&border_color=2a0015&hide_border=false&count_private=true" />
-&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddd047&layout=compact&theme=dark&bg_color=0a0005&title_color=cc0000&text_color=e8e0f0&border_color=2a0015" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" />
-
-</div>
-
----
-
-## 🧪 Currently In The Lab
-
-```python
-ddd047 = {
-    "role"       : "AI/ML Enthusiast · B.Tech Student",
-    "learning"   : ["Deep Learning", "NLP", "LLMs", "Computer Vision"],
-    "building"   : "Something that will stick to walls (metaphorically)",
-    "ask_me_about": ["Machine Learning", "Python", "AI Research"],
-    "spider_sense": "Tingling whenever there's an underfitting model nearby"
-}
-```
-
----
-
-## 🕷️ Connect With Me
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-ddd047-cc0000?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0005)](https://github.com/ddd047)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-cc0000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0005)]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/himanshu-dhiman-b30611321/))
-[![Email](https://img.shields.io/badge/Email-Reach+Out-cc0000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0005)](himanshu.hry26@gmail.com)
-
-</div>
-
----
-
-<!-- ACTIVITY GRAPH -->
-<div align="center">
-
-## 🌆 Contribution Web
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ddd047&bg_color=0a0005&color=cc0000&line=880000&point=ff4444&area=true&hide_border=false&border_color=2a0015)](https://github.com/ddd047)
-
-</div>
-
----
-
-<!-- FOOTER SVG WEB -->
-<div align="center">
-
-<svg width="600" height="40" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg">
-  <g stroke="#cc0000" stroke-width="0.7" fill="none" opacity="0.35">
-    <line x1="300" y1="0" x2="0"   y2="40"/>
-    <line x1="300" y1="0" x2="100" y2="40"/>
-    <line x1="300" y1="0" x2="200" y2="40"/>
-    <line x1="300" y1="0" x2="300" y2="40"/>
-    <line x1="300" y1="0" x2="400" y2="40"/>
-    <line x1="300" y1="0" x2="500" y2="40"/>
-    <line x1="300" y1="0" x2="600" y2="40"/>
-    <path d="M0 15 Q150 5 300 15 Q450 25 600 15"/>
-    <path d="M0 28 Q150 18 300 28 Q450 38 600 28"/>
-  </g>
-  <circle cx="300" cy="2" r="3" fill="#cc0000" opacity="0.8"/>
-</svg>
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=440022&center=true&vCenter=true&width=500&lines=🕷+ddd047+·+swinging+through+code+since+day+one+🕷" alt="footer" />
-
-![Visitor Count](https://komarev.com/ghpvc/?username=ddd047&style=for-the-badge&color=cc0000&labelColor=0a0005&label=VISITORS)
-
-</div>
+<script>
+const stmts = [
+  "🤖 AI/ML enthusiast — I spin neural networks the way Spidey spins webs. Data goes in, intelligence comes out.",
+  "🎓 B.Tech student with a sixth sense for machine learning. When the model predicts wrong, my spider-sense tingles.",
+  "🧠 Sharp instincts for patterns in chaotic data. From raw datasets to deployable models — I swing through the whole pipeline.",
+  "🔬 Deep diving into NLP, computer vision, and deep learning. My GitHub is the lab; every commit is a web shot.",
+  "🌆 By day a student, by night training models on my laptop. The city never sleeps, and neither does my training loop."
+];
+let cur=0,ci=0,del=false;
+const tel=document.getElementById('sp-type');
+const dnel=document.getElementById('sp-dots');
+stmts.forEach((_,i)=>{const d=document.createElement('div');d.className='sp-dot'+(i===0?' active':'');d.onclick=()=>{cur=i;ci=0;del=false;updateD()};dnel.appendChild(d)});
+function updateD(){document.querySelectorAll('.sp-dot').forEach((d,i)=>d.classList.toggle('active',i===cur))}
+function type(){const f=stmts[cur];tel.innerHTML=f.slice(0,ci)+'<span class="sp-cursor"></span>';if(!del&&ci<f.length){ci++;setTimeout(type,38)}else if(!del&&ci===f.length){setTimeout(()=>{del=true;type()},2600)}else if(del&&ci>0){ci--;setTimeout(type,16)}else{del=false;cur=(cur+1)%stmts.length;updateD();setTimeout(type,400)}}
+type();
+const skills=[{n:'Machine Learning',p:82},{n:'Python',p:88},{n:'Deep Learning',p:75},{n:'Data Analysis',p:79},{n:'NLP / LLMs',p:70},{n:'Math & Stats',p:73}];
+const sc=document.getElementById('sp-skills-container');
+skills.forEach(s=>{const r=document.createElement('div');r.className='sp-skill-row';r.innerHTML=`<div class="sp-skill-name">${s.n}</div><div class="sp-bar-bg"><div class="sp-bar-fill" data-p="${s.p}"></div></div><div class="sp-pct">${s.p}%</div>`;sc.appendChild(r)});
+setTimeout(()=>document.querySelectorAll('.sp-bar-fill').forEach(b=>b.style.width=b.dataset.p+'%'),500);
+</script>

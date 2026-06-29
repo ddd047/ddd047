@@ -110,9 +110,8 @@ ddd047 = {
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-ddd047-cc0000?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0005)](https://github.com/ddd047)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-cc0000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0005)](https://linkedin.com/in/your-profile)
-[![Twitter](https://img.shields.io/badge/Twitter%2FX-Follow-cc0000?style=for-the-badge&logo=x&logoColor=white&labelColor=0a0005)](https://x.com/your-handle)
-[![Email](https://img.shields.io/badge/Email-Reach+Out-cc0000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0005)](mailto:your@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-cc0000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0005)]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/himanshu-dhiman-b30611321/))
+[![Email](https://img.shields.io/badge/Email-Reach+Out-cc0000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0005)](himanshu.hry26@gmail.com)
 
 </div>
 

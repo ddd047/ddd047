@@ -1,0 +1,14 @@
+<svg width="800" height="40" viewBox="0 0 800 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#cc0000" stroke-width="0.7" fill="none" opacity="0.35">
+    <line x1="400" y1="0" x2="0"   y2="40"/>
+    <line x1="400" y1="0" x2="150" y2="40"/>
+    <line x1="400" y1="0" x2="300" y2="40"/>
+    <line x1="400" y1="0" x2="400" y2="40"/>
+    <line x1="400" y1="0" x2="500" y2="40"/>
+    <line x1="400" y1="0" x2="650" y2="40"/>
+    <line x1="400" y1="0" x2="800" y2="40"/>
+    <path d="M0 15 Q200 5 400 15 Q600 25 800 15"/>
+    <path d="M0 28 Q200 18 400 28 Q600 38 800 28"/>
+  </g>
+  <circle cx="400" cy="2" r="3" fill="#cc0000" opacity="0.8"/>
+</svg>

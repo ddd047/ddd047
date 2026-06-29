@@ -1,0 +1,27 @@
+<svg width="130" height="36" viewBox="0 0 130 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+    .btn {
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+    .btn:hover rect {
+      fill: rgba(204, 0, 0, 0.15);
+      stroke: #ff4444;
+    }
+    .btn:hover text {
+      fill: #ffffff;
+    }
+    .btn-text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 13px;
+      fill: #cc0000;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+  </style>
+  <g class="btn">
+    <rect x="1" y="1" width="128" height="34" rx="17" stroke="#cc0000" stroke-width="1.5" fill="none"/>
+    <text x="65" y="19" class="btn-text">🐦 Twitter/X</text>
+  </g>
+</svg>

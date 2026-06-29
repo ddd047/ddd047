@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- TOP HEADER: Web corners and animated glowing title -->
 <div align="center">
   <svg width="100%" height="180" viewBox="0 0 800 180" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,6 +82,14 @@
     <polygon points="400,4 412,12 400,20 388,12" fill="#cc0000" opacity="0.9"/>
     <line x1="420" y1="12" x2="800" y2="12" stroke="#cc0000" stroke-width="0.8" opacity="0.6"/>
   </svg>
+=======
+<div align="center">
+  <!-- TOP HEADER -->
+  <img src="header.svg" width="800" alt="Spider-Man Header" />
+
+  <!-- WEB DIVIDER -->
+  <img src="divider.svg" width="800" alt="Divider" />
+>>>>>>> 183572d (adding the profile stats)
 </div>
 
 ---
@@ -92,7 +101,11 @@ ddd047@spidey-lab:~$ ./bio.sh
 ```
 
 <div align="center">
+<<<<<<< HEAD
   <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=4000&pause=1000&color=E8E0F0&width=750&lines=🤖+AI%2FML+enthusiast+—+I+spin+neural+networks+like+Spidey+spins+webs.;🎓+B.Tech+student+with+a+sixth+sense+for+machine+learning.;🧠+Sharp+instincts+for+patterns+in+chaotic+data.;🔬+Deep+diving+into+NLP%2C+computer+vision+%26+deep+learning.;🌆+By+day+a+student%2C+by+night+training+models+on+my+laptop." alt="bio typing" />
+=======
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&amp;size=16&amp;duration=4000&amp;pause=1000&amp;color=E8E0F0&amp;width=750&amp;lines=🤖+AI%2FML+enthusiast+—+I+spin+neural+networks+like+Spidey+spins+webs.;🎓+B.Tech+student+with+a+sixth+sense+for+machine+learning.;🧠+Sharp+instincts+for+patterns+in+chaotic+data.;🔬+Deep+diving+into+NLP%2C+computer+vision+%26+deep+learning.;🌆+By+day+a+student%2C+by+night+training+models+on+my+laptop." alt="bio typing" />
+>>>>>>> 183572d (adding the profile stats)
 </div>
 
 ---
@@ -100,6 +113,7 @@ ddd047@spidey-lab:~$ ./bio.sh
 ### 〉 PROFILE.STATS
 
 <div align="center">
+<<<<<<< HEAD
   <svg width="100%" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
       .card {
@@ -160,6 +174,9 @@ ddd047@spidey-lab:~$ ./bio.sh
       <text x="130" y="118" class="card-tip">Spider-sense for bugs</text>
     </g>
   </svg>
+=======
+  <img src="stats.svg" width="800" alt="Profile Stats" />
+>>>>>>> 183572d (adding the profile stats)
 </div>
 
 ---
@@ -167,6 +184,7 @@ ddd047@spidey-lab:~$ ./bio.sh
 ### 〉 SKILLS.WEB
 
 <div align="center">
+<<<<<<< HEAD
   <svg width="100%" height="260" viewBox="0 0 800 260" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bar-grad" x1="0" y1="0" x2="1" y2="0">
@@ -231,6 +249,9 @@ ddd047@spidey-lab:~$ ./bio.sh
     <rect x="180" y="214" width="401.5" height="12" rx="6" fill="url(#bar-grad)" class="bar-fill"/>
     <text x="780" y="225" class="skill-pct">73%</text>
   </svg>
+=======
+  <img src="skills.svg" width="800" alt="Skills Web" />
+>>>>>>> 183572d (adding the profile stats)
 </div>
 
 ---
@@ -238,15 +259,25 @@ ddd047@spidey-lab:~$ ./bio.sh
 ### 〉 GITHUB.STATS
 
 <div align="center">
+<<<<<<< HEAD
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=ddd047&show_icons=true&theme=dark&bg_color=0a0005&title_color=cc0000&icon_color=cc0000&text_color=e8e0f0&border_color=2a0015&hide_border=false&count_private=true" />
   &nbsp;&nbsp;
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddd047&layout=compact&theme=dark&bg_color=0a0005&title_color=cc0000&text_color=e8e0f0&border_color=2a0015" />
+=======
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ddd047&amp;show_icons=true&amp;theme=dark&amp;bg_color=0a0005&amp;title_color=cc0000&amp;icon_color=cc0000&amp;text_color=e8e0f0&amp;border_color=2a0015&amp;hide_border=false&amp;count_private=true" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddd047&amp;layout=compact&amp;theme=dark&amp;bg_color=0a0005&amp;title_color=cc0000&amp;text_color=e8e0f0&amp;border_color=2a0015&amp;alt=Top Languages" />
+>>>>>>> 183572d (adding the profile stats)
 </div>
 
 <br>
 
 <div align="center">
+<<<<<<< HEAD
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" />
+=======
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&amp;theme=dark&amp;background=0a0005&amp;ring=cc0000&amp;fire=ff4444&amp;currStreakLabel=cc0000&amp;sideLabels=880000&amp;border=2a0015&amp;dates=888888" alt="Streak Stats" />
+>>>>>>> 183572d (adding the profile stats)
 </div>
 
 ---
@@ -268,6 +299,7 @@ ddd047 = {
 ### 〉 SOCIALS.WEB (INTERACTIVE)
 
 <div align="center">
+<<<<<<< HEAD
   <svg width="100%" height="50" viewBox="0 0 800 50" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
       .btn {
@@ -318,6 +350,17 @@ ddd047 = {
       <text x="710" y="29" text-anchor="middle" class="btn-text">📝 Blog</text>
     </a>
   </svg>
+=======
+  <a href="https://github.com/ddd047" target="_blank"><img src="btn_github.svg" width="130" alt="GitHub Button" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/himanshu-dhiman-b30611321/" target="_blank"><img src="btn_linkedin.svg" width="130" alt="LinkedIn Button" /></a>
+  &nbsp;
+  <a href="https://twitter.com" target="_blank"><img src="btn_twitter.svg" width="130" alt="Twitter Button" /></a>
+  &nbsp;
+  <a href="mailto:himanshu.hry26@gmail.com"><img src="btn_email.svg" width="130" alt="Email Button" /></a>
+  &nbsp;
+  <a href="#"><img src="btn_blog.svg" width="130" alt="Blog Button" /></a>
+>>>>>>> 183572d (adding the profile stats)
 </div>
 
 ---
@@ -326,12 +369,17 @@ ddd047 = {
 
 <div align="center">
   <a href="https://github.com/ddd047" target="_blank">
+<<<<<<< HEAD
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=ddd047&bg_color=0a0005&color=cc0000&line=880000&point=ff4444&area=true&hide_border=false&border_color=2a0015" alt="Activity Graph" />
+=======
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ddd047&amp;bg_color=0a0005&amp;color=cc0000&amp;line=880000&amp;point=ff4444&amp;area=true&amp;hide_border=false&amp;border_color=2a0015" alt="Activity Graph" />
+>>>>>>> 183572d (adding the profile stats)
   </a>
 </div>
 
 ---
 
+<<<<<<< HEAD
 <!-- FOOTER WEB -->
 <div align="center">
   <svg width="100%" height="40" viewBox="0 0 800 40" xmlns="http://www.w3.org/2000/svg">
@@ -356,4 +404,13 @@ ddd047 = {
   <br><br>
 
   <img src="https://komarev.com/ghpvc/?username=ddd047&style=for-the-badge&color=cc0000&labelColor=0a0005&label=VISITORS" alt="Visitor Count" />
+=======
+<!-- FOOTER -->
+<div align="center">
+  <img src="footer.svg" width="800" alt="Footer Web" />
+  <br>
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&amp;size=12&amp;duration=3000&amp;pause=1000&amp;color=cc0000&amp;center=true&amp;vCenter=true&amp;width=500&amp;lines=🕷+ddd047+·+swinging+through+code+since+day+one+🕷" alt="footer text" />
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=ddd047&amp;style=for-the-badge&amp;color=cc0000&amp;labelColor=0a0005&amp;label=VISITORS" alt="Visitor Count" />
+>>>>>>> 183572d (adding the profile stats)
 </div>

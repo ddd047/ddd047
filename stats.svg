@@ -1,0 +1,61 @@
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Share+Tech+Mono&amp;family=Rajdhani:wght@400;600&amp;display=swap');
+    .card {
+      transition: transform 0.3s, stroke 0.3s;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      stroke: #cc0000;
+    }
+    .card-val {
+      font-family: 'Bebas Neue', cursive, sans-serif;
+      font-size: 24px;
+      fill: #cc0000;
+      text-anchor: middle;
+      font-weight: bold;
+    }
+    .card-lbl {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      fill: #660022;
+      text-anchor: middle;
+      letter-spacing: 2px;
+    }
+    .card-tip {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 10px;
+      fill: #ff7777;
+      text-anchor: middle;
+      opacity: 0.8;
+    }
+  </style>
+
+  <!-- Card 1: AI/ML -->
+  <g class="card" transform="translate(0, 5)">
+    <rect x="10" y="5" width="240" height="130" rx="10" fill="#0f0008" stroke="#2a0015" stroke-width="1.5"/>
+    <text x="130" y="45" font-size="30" text-anchor="middle">🤖</text>
+    <text x="130" y="80" class="card-val">AI/ML</text>
+    <text x="130" y="100" class="card-lbl">ENTHUSIAST</text>
+    <text x="130" y="118" class="card-tip">Spinning neural webs</text>
+  </g>
+
+  <!-- Card 2: B.Tech -->
+  <g class="card" transform="translate(270, 5)">
+    <rect x="10" y="5" width="240" height="130" rx="10" fill="#0f0008" stroke="#2a0015" stroke-width="1.5"/>
+    <text x="130" y="45" font-size="30" text-anchor="middle">🎓</text>
+    <text x="130" y="80" class="card-val">B.TECH</text>
+    <text x="130" y="100" class="card-lbl">STUDENT</text>
+    <text x="130" y="118" class="card-tip">Climbing the academic wall</text>
+  </g>
+
+  <!-- Card 3: Dedication -->
+  <g class="card" transform="translate(540, 5)">
+    <rect x="10" y="5" width="240" height="130" rx="10" fill="#0f0008" stroke="#2a0015" stroke-width="1.5"/>
+    <text x="130" y="45" font-size="30" text-anchor="middle">🔴</text>
+    <text x="130" y="80" class="card-val">100%</text>
+    <text x="130" y="100" class="card-lbl">DEDICATION</text>
+    <text x="130" y="118" class="card-tip">Spider-sense for bugs</text>
+  </g>
+</svg>

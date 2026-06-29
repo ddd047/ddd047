@@ -1,0 +1,73 @@
+<svg width="800" height="180" viewBox="0 0 800 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Share+Tech+Mono&amp;family=Rajdhani:wght@400;600&amp;display=swap');
+    .web-corner {
+      stroke: #cc0000;
+      stroke-width: 0.8;
+      opacity: 0.18;
+    }
+    .eyebrow {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 12px;
+      fill: #cc0000;
+      letter-spacing: 5px;
+      text-anchor: middle;
+    }
+    .title {
+      font-family: 'Bebas Neue', cursive, sans-serif;
+      font-size: 52px;
+      fill: #ffffff;
+      text-anchor: middle;
+      letter-spacing: 3px;
+      font-weight: bold;
+      filter: drop-shadow(0 0 8px #cc0000);
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+    .subtitle {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 13px;
+      fill: #880000;
+      letter-spacing: 3px;
+      text-anchor: middle;
+    }
+    @keyframes pulse {
+      0%, 100% { fill: #ffffff; filter: drop-shadow(0 0 8px #cc0000) drop-shadow(0 0 20px #880000); }
+      50% { fill: #ff4444; filter: drop-shadow(0 0 12px #ff0000) drop-shadow(0 0 30px #cc0000); }
+    }
+  </style>
+
+  <!-- Left Web Corner -->
+  <g class="web-corner">
+    <line x1="0" y1="0" x2="120" y2="120"/>
+    <line x1="0" y1="0" x2="80" y2="120"/>
+    <line x1="0" y1="0" x2="40" y2="120"/>
+    <line x1="0" y1="0" x2="120" y2="80"/>
+    <line x1="0" y1="0" x2="120" y2="40"/>
+    <path d="M0 20 Q10 10 20 0"/>
+    <path d="M0 40 Q20 20 40 0"/>
+    <path d="M0 60 Q30 30 60 0"/>
+    <path d="M0 80 Q40 40 80 0"/>
+    <path d="M0 100 Q50 50 100 0"/>
+    <path d="M0 120 Q60 60 120 0"/>
+  </g>
+
+  <!-- Right Web Corner -->
+  <g class="web-corner" transform="translate(800, 0) scale(-1, 1)">
+    <line x1="0" y1="0" x2="120" y2="120"/>
+    <line x1="0" y1="0" x2="80" y2="120"/>
+    <line x1="0" y1="0" x2="40" y2="120"/>
+    <line x1="0" y1="0" x2="120" y2="80"/>
+    <line x1="0" y1="0" x2="120" y2="40"/>
+    <path d="M0 20 Q10 10 20 0"/>
+    <path d="M0 40 Q20 20 40 0"/>
+    <path d="M0 60 Q30 30 60 0"/>
+    <path d="M0 80 Q40 40 80 0"/>
+    <path d="M0 100 Q50 50 100 0"/>
+    <path d="M0 120 Q60 60 120 0"/>
+  </g>
+
+  <!-- Header Text Content -->
+  <text x="400" y="55" class="eyebrow">⬡ YOUR FRIENDLY NEIGHBORHOOD DEV ⬡</text>
+  <text x="400" y="115" class="title">WELCOME TO MY GITHUB</text>
+  <text x="400" y="150" class="subtitle">// ddd047 · WITH GREAT CODE COMES GREAT RESPONSIBILITY //</text>
+</svg>

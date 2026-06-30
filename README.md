@@ -41,7 +41,7 @@ ddd047@spidey-lab:~$ ./bio.sh
 <div align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=ddd047&amp;show_icons=true&amp;theme=dark&amp;bg_color=0a0005&amp;title_color=cc0000&amp;icon_color=cc0000&amp;text_color=e8e0f0&amp;border_color=2a0015&amp;hide_border=false&amp;count_private=true" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddd047&amp;layout=compact&amp;theme=dark&amp;bg_color=0a0005&amp;title_color=cc0000&amp;text_color=e8e0f0&amp;border_color=2a0015&amp;alt=Top Languages" />
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" />
 </div>
 
 <br>

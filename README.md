@@ -48,14 +48,14 @@ ddd047@spidey-lab:~$ ./bio.sh
   &nbsp;
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
   
-  <br><br>
+  <br>
 
   <!-- Frameworks & Data -->
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   &nbsp;
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
   
-  <br><br>
+  <br>
 
   <!-- OS & DevOps -->
   <img src="https://img.shields.io/badge/Fedora-3C6EB4?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora" />

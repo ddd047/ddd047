@@ -16,10 +16,7 @@ ddd047@spidey-lab:~$ ./bio.sh
 
 <div align="center">
 <<<<<<< HEAD
-  <img src="https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=16&duration=4000&pause=1000&color=E8E0F0&width=750&lines=%F0%9F%A4%96+AI/ML+enthusiast+%E2%80%94+I+spin+neural+networks+like+Spidey+spins+webs.;%F0%9F%8E%93+B.Tech+student+with+a+sixth+sense+for+machine+learning.;%F0%9F%A7%A0+Sharp+instincts+for+patterns+in+chaotic+data.;%F0%9F%94%AC+Deep+diving+into+NLP,+computer+vision+&+deep+learning.;%F0%9F%8C%86+By+day+a+student,+by+night+training+models+on+my+laptop." />
-=======
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=4000&pause=1000&color=E8E0F0&width=750&lines=🤖+AI%2FML+enthusiast+—+I+spin+neural+networks+like+Spidey+spins+webs.;🎓+B.Tech+student+with+a+sixth+sense+for+machine+learning.;🧠+Sharp+instincts+for+patterns+in+chaotic+data.;🔬+Deep+diving+into+NLP%2C+computer+vision+%26+deep+learning.;🌆+By+day+a+student%2C+by+night+training+models+on+my+laptop." alt="bio typing" />
->>>>>>> 318d090 (stats problem resolved)
+  <img src="https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=16&duration=4000&pause=1000&color=E8E0F0&width=750&lines=%F0%9F%A4%96+AI/ML+enthusiast+%E2%80%94+I+spin+neural+networks+like+Spidey+spins+webs.;%F0%9F%8E%93+B.Tech+student+with+a+sixth+sense+for+machine+learning.;%F0%9F%A7%A0+Sharp+instincts+for+patterns+in+chaotic+data.;%F0%9F%94%AC+Deep+diving+into+NLP,+computer+vision+&+deep+learning.;%F0%9F%8C%86+By+day+a+student,+by+night+training+models+on+my+laptop." alt = "Bio Typing"/>
 </div>
 
 ---

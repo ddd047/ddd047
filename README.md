@@ -125,7 +125,7 @@ ddd047 = {
 <div align="center">
   <img src="footer.svg" width="800" alt="Footer Web" />
   <br>
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000&center=true&vCenter=true&width=500&lines=🕷+ddd047+·+swinging+through+code+since+day+one+🕷" alt="footer text" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000%C2%A2er=true&vCenter=true&width=500&lines=%F0%9F%95%B7+ddd047+%C2%B7+swinging+through+code+since+day+one+%F0%9F%95%B7" alt="footer text" />
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=ddd047&style=for-the-badge&color=cc0000&labelColor=0a0005&label=VISITORS" alt="Visitor Count" />
 </div>

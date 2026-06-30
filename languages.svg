@@ -1,0 +1,68 @@
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&family=Rajdhani:wght@400;600&display=swap');
+    .container {
+      transition: all 0.3s;
+    }
+    .container:hover rect.bg {
+      stroke: #cc0000;
+    }
+    .title {
+      font-family: 'Bebas Neue', cursive, sans-serif;
+      font-size: 24px;
+      fill: #cc0000;
+      letter-spacing: 2px;
+    }
+    .lang-lbl {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 13px;
+      fill: #e8e0f0;
+    }
+    .lang-pct {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 12px;
+      fill: #cc6677;
+    }
+    .segment {
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .segment:hover {
+      transform: scaleY(1.2);
+    }
+  ]]></style>
+
+  <!-- Card Background -->
+  <rect class="bg" x="10" y="5" width="780" height="140" rx="10" fill="#0f0008" stroke="#2a0015" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="30" y="38" class="title">TOP LANGUAGES</text>
+
+  <!-- Segmented Language Bar -->
+  <g transform="translate(30, 52)">
+    <!-- Python (75%) -->
+    <rect class="segment" x="0" y="0" width="555" height="16" rx="4" fill="#cc0000"/>
+    <!-- Jupyter / ML (15%) -->
+    <rect class="segment" x="560" y="0" width="111" height="16" rx="4" fill="#660022"/>
+    <!-- Web / HTML & CSS (10%) -->
+    <rect class="segment" x="676" y="0" width="64" height="16" rx="4" fill="#cc6677"/>
+  </g>
+
+  <!-- Legends and Stats -->
+  <g transform="translate(30, 105)">
+    <!-- Legend 1: Python -->
+    <circle cx="10" cy="5" r="6" fill="#cc0000"/>
+    <text x="25" y="9" class="lang-lbl">Python</text>
+    <text x="120" y="9" class="lang-pct">75.0%</text>
+
+    <!-- Legend 2: Jupyter / Math -->
+    <circle cx="260" cy="5" r="6" fill="#660022"/>
+    <text x="275" y="9" class="lang-lbl">Jupyter Notebook</text>
+    <text x="420" y="9" class="lang-pct">15.0%</text>
+
+    <!-- Legend 3: Web & Other -->
+    <circle cx="530" cy="5" r="6" fill="#cc6677"/>
+    <text x="545" y="9" class="lang-lbl">Web (HTML/CSS)</text>
+    <text x="680" y="9" class="lang-pct">10.0%</text>
+  </g>
+</svg>

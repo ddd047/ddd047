@@ -1,11 +1,11 @@
-# Line-by-Line Explanation of `newreadMe.md`
+# Line-by-Line Explanation of `README.md`
 
-This guide explains how the updated Spider-Man themed GitHub Profile README file ([newreadMe.md](file:///home/ddd0604/ddd047repo/newreadMe.md)) works. 
+This guide explains how the updated Spider-Man themed GitHub Profile README file ([README.md](file:///home/ddd0604/ddd047repo/README.md)) works. 
 
 ### Why the Code Changed
 GitHub's markdown sanitizer blocks raw `<style>` and `<svg>` code written directly into a README.md file (which is why it looked like raw text code on your screen before). 
 
-**The Solution:** We extracted all the custom graphics and animations into standalone `.svg` graphic files (`header.svg`, `stats.svg`, `skills.svg`, etc.) and saved them in your repository. Now, `newreadMe.md` references these files using simple, standard image tags (`<img>`). When loaded on GitHub, the browser displays them as graphics while fully preserving their internal CSS fonts, gradients, and animations!
+**The Solution:** We extracted all the custom graphics and animations into standalone `.svg` graphic files (`header.svg`, `stats.svg`, `skills.svg`, etc.) and saved them in your repository. Now, `README.md` references these files using simple, standard image tags (`<img>`). When loaded on GitHub, the browser displays them as graphics while fully preserving their internal CSS fonts, gradients, and animations!
 
 ---
 
@@ -69,17 +69,18 @@ Loads the animated progress bars indicating your programming and tool levels fro
 
 ---
 
-## 5. GitHub Stats Widgets (Lines 39 to 52)
+## 5. Languages Web and Streaks (Lines 39 to 52)
 
-Displays live cards pulling your automatic GitHub contribution commits, streaks, and language calculations.
+Displays a custom segmented bar mapping your top programming languages, alongside your contribution streaks.
 
 ### Code Block
 * **Start Line:** 39
 * **End Line:** 52
 
-### Key Keywords Explained
-* **`&nbsp;` (Non-breaking space):** An HTML tag to add blank horizontal spaces between the two stat cards side-by-side.
-* **`<br>` (Break):** Starts a new vertical line.
+### SVG Graphic File Details ([languages.svg](file:///home/ddd0604/ddd047repo/languages.svg))
+* Inside `languages.svg`, we draw a segmented progress bar representing your top languages (Python: 75%, Jupyter: 15%, Web: 10%). 
+* We use CSS hover rules (`.segment:hover`) inside the SVG so that when users hover over each colored bar segment, it increases in height slightly (`scaleY(1.2)`) to create a smooth interactive dashboard effect.
+* **`<br>` (Break):** HTML tag to start a new blank line.
 
 ---
 

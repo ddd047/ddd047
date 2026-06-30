@@ -15,7 +15,11 @@ ddd047@spidey-lab:~$ ./bio.sh
 ```
 
 <div align="center">
+<<<<<<< HEAD
   <img src="https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=16&duration=4000&pause=1000&color=E8E0F0&width=750&lines=%F0%9F%A4%96+AI/ML+enthusiast+%E2%80%94+I+spin+neural+networks+like+Spidey+spins+webs.;%F0%9F%8E%93+B.Tech+student+with+a+sixth+sense+for+machine+learning.;%F0%9F%A7%A0+Sharp+instincts+for+patterns+in+chaotic+data.;%F0%9F%94%AC+Deep+diving+into+NLP,+computer+vision+&+deep+learning.;%F0%9F%8C%86+By+day+a+student,+by+night+training+models+on+my+laptop." />
+=======
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=4000&pause=1000&color=E8E0F0&width=750&lines=🤖+AI%2FML+enthusiast+—+I+spin+neural+networks+like+Spidey+spins+webs.;🎓+B.Tech+student+with+a+sixth+sense+for+machine+learning.;🧠+Sharp+instincts+for+patterns+in+chaotic+data.;🔬+Deep+diving+into+NLP%2C+computer+vision+%26+deep+learning.;🌆+By+day+a+student%2C+by+night+training+models+on+my+laptop." alt="bio typing" />
+>>>>>>> 318d090 (stats problem resolved)
 </div>
 
 ---
@@ -36,18 +40,22 @@ ddd047@spidey-lab:~$ ./bio.sh
 
 ---
 
-### 〉 GITHUB.STATS
+### 〉 LANGUAGES.WEB
 
 <div align="center">
+<<<<<<< HEAD
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=ddd047&amp;show_icons=true&amp;theme=dark&amp;bg_color=0a0005&amp;title_color=cc0000&amp;icon_color=cc0000&amp;text_color=e8e0f0&amp;border_color=2a0015&amp;hide_border=false&amp;count_private=true" alt="GitHub Stats" />
   &nbsp;&nbsp;
   <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" />
+=======
+  <img src="languages.svg" width="800" alt="Top Languages" />
+>>>>>>> 318d090 (stats problem resolved)
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&amp;theme=dark&amp;background=0a0005&amp;ring=cc0000&amp;fire=ff4444&amp;currStreakLabel=cc0000&amp;sideLabels=880000&amp;border=2a0015&amp;dates=888888" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" alt="Streak Stats" />
 </div>
 
 ---
@@ -86,7 +94,7 @@ ddd047 = {
 
 <div align="center">
   <a href="https://github.com/ddd047" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ddd047&amp;bg_color=0a0005&amp;color=cc0000&amp;line=880000&amp;point=ff4444&amp;area=true&amp;hide_border=false&amp;border_color=2a0015" alt="Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ddd047&bg_color=0a0005&color=cc0000&line=880000&point=ff4444&area=true&hide_border=false&border_color=2a0015" alt="Activity Graph" />
   </a>
 </div>
 
@@ -96,9 +104,13 @@ ddd047 = {
 <div align="center">
   <img src="footer.svg" width="800" alt="Footer Web" />
   <br>
+<<<<<<< HEAD
   <img src="https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000&center=true&vCenter=true&width=500&lines=%F0%9F%95%B7+ddd047+%C2%B7+swinging+through+code+since+day+one+%F0%9F%95%B7" alt="footer text" />
+=======
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000&center=true&vCenter=true&width=500&lines=🕷+ddd047+·+swinging+through+code+since+day+one+🕷" alt="footer text" />
+>>>>>>> 318d090 (stats problem resolved)
   <br><br>
-  <img src="https://komarev.com/ghpvc/?username=ddd047&amp;style=for-the-badge&amp;color=cc0000&amp;labelColor=0a0005&amp;label=VISITORS" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=ddd047&style=for-the-badge&color=cc0000&labelColor=0a0005&label=VISITORS" alt="Visitor Count" />
 </div>
 
 <!-- hello -->

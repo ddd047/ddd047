@@ -1,6 +1,6 @@
 <svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Share+Tech+Mono&amp;family=Rajdhani:wght@400;600&amp;display=swap');
+  <style><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&family=Rajdhani:wght@400;600&display=swap');
     .card {
       transition: transform 0.3s, stroke 0.3s;
       cursor: pointer;
@@ -30,12 +30,20 @@
       text-anchor: middle;
       opacity: 0.8;
     }
-  </style>
+  ]]></style>
 
   <!-- Card 1: AI/ML -->
   <g class="card" transform="translate(0, 5)">
     <rect x="10" y="5" width="240" height="130" rx="10" fill="#0f0008" stroke="#2a0015" stroke-width="1.5"/>
-    <text x="130" y="45" font-size="30" text-anchor="middle">🤖</text>
+    <!-- Vector Robot Icon -->
+    <g transform="translate(110, 20)">
+      <rect x="5" y="10" width="30" height="22" rx="4" fill="none" stroke="#cc0000" stroke-width="2"/>
+      <line x1="12" y1="21" x2="12" y2="21.01" stroke="#cc0000" stroke-width="3" stroke-linecap="round"/>
+      <line x1="28" y1="21" x2="28" y2="21.01" stroke="#cc0000" stroke-width="3" stroke-linecap="round"/>
+      <path d="M15,26 h10" stroke="#cc0000" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="10" x2="20" y2="4" stroke="#cc0000" stroke-width="2"/>
+      <circle cx="20" cy="3" r="2" fill="#cc0000"/>
+    </g>
     <text x="130" y="80" class="card-val">AI/ML</text>
     <text x="130" y="100" class="card-lbl">ENTHUSIAST</text>
     <text x="130" y="118" class="card-tip">Spinning neural webs</text>
@@ -44,7 +52,12 @@
   <!-- Card 2: B.Tech -->
   <g class="card" transform="translate(270, 5)">
     <rect x="10" y="5" width="240" height="130" rx="10" fill="#0f0008" stroke="#2a0015" stroke-width="1.5"/>
-    <text x="130" y="45" font-size="30" text-anchor="middle">🎓</text>
+    <!-- Vector Graduation Cap Icon -->
+    <g transform="translate(105, 20)">
+      <polygon points="25,5 47,14 25,23 3,14" fill="#cc0000"/>
+      <path d="M10,17 v8 c0,5 6,8 15,8 s15-3 15-8 v-8" fill="none" stroke="#cc0000" stroke-width="2"/>
+      <path d="M43,15 v12 l-3,3" fill="none" stroke="#cc0000" stroke-width="2"/>
+    </g>
     <text x="130" y="80" class="card-val">B.TECH</text>
     <text x="130" y="100" class="card-lbl">STUDENT</text>
     <text x="130" y="118" class="card-tip">Climbing the academic wall</text>
@@ -53,7 +66,16 @@
   <!-- Card 3: Dedication -->
   <g class="card" transform="translate(540, 5)">
     <rect x="10" y="5" width="240" height="130" rx="10" fill="#0f0008" stroke="#2a0015" stroke-width="1.5"/>
-    <text x="130" y="45" font-size="30" text-anchor="middle">🔴</text>
+    <!-- Vector Spider Web / Target Icon -->
+    <g transform="translate(110, 20)">
+      <circle cx="20" cy="18" r="14" stroke="#cc0000" stroke-width="1.5" fill="none"/>
+      <circle cx="20" cy="18" r="8" stroke="#cc0000" stroke-width="1" fill="none"/>
+      <line x1="20" y1="4" x2="20" y2="32" stroke="#cc0000" stroke-width="1"/>
+      <line x1="6" y1="18" x2="34" y2="18" stroke="#cc0000" stroke-width="1"/>
+      <line x1="10" y1="8" x2="30" y2="28" stroke="#cc0000" stroke-width="1"/>
+      <line x1="10" y1="28" x2="30" y2="8" stroke="#cc0000" stroke-width="1"/>
+      <circle cx="20" cy="18" r="3" fill="#cc0000"/>
+    </g>
     <text x="130" y="80" class="card-val">100%</text>
     <text x="130" y="100" class="card-lbl">DEDICATION</text>
     <text x="130" y="118" class="card-tip">Spider-sense for bugs</text>

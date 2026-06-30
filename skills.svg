@@ -5,8 +5,8 @@
       <stop offset="100%" stop-color="#cc0000" />
     </linearGradient>
   </defs>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+  <style><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
     .skill-name {
       font-family: 'Share Tech Mono', monospace;
       font-size: 14px;
@@ -26,7 +26,7 @@
       from { transform: scaleX(0); }
       to { transform: scaleX(1); }
     }
-  </style>
+  ]]></style>
   <!-- Skill 1: Machine Learning (82%) -->
   <text x="10" y="25" class="skill-name">Machine Learning</text>
   <rect x="180" y="14" width="550" height="12" rx="6" fill="#1a0010" stroke="#2a0015" stroke-width="1"/>

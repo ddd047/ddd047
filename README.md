@@ -39,13 +39,7 @@ ddd047@spidey-lab:~$ ./bio.sh
 ### 〉 LANGUAGES.WEB
 
 <div align="center">
-<<<<<<< HEAD
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ddd047&amp;show_icons=true&amp;theme=dark&amp;bg_color=0a0005&amp;title_color=cc0000&amp;icon_color=cc0000&amp;text_color=e8e0f0&amp;border_color=2a0015&amp;hide_border=false&amp;count_private=true" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" />
-=======
   <img src="languages.svg" width="800" alt="Top Languages" />
->>>>>>> 318d090 (stats problem resolved)
 </div>
 
 <br>
@@ -100,11 +94,7 @@ ddd047 = {
 <div align="center">
   <img src="footer.svg" width="800" alt="Footer Web" />
   <br>
-<<<<<<< HEAD
-  <img src="https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000&center=true&vCenter=true&width=500&lines=%F0%9F%95%B7+ddd047+%C2%B7+swinging+through+code+since+day+one+%F0%9F%95%B7" alt="footer text" />
-=======
   <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000&center=true&vCenter=true&width=500&lines=🕷+ddd047+·+swinging+through+code+since+day+one+🕷" alt="footer text" />
->>>>>>> 318d090 (stats problem resolved)
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=ddd047&style=for-the-badge&color=cc0000&labelColor=0a0005&label=VISITORS" alt="Visitor Count" />
 </div>

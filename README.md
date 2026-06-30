@@ -102,7 +102,7 @@ ddd047 = {
   &nbsp;
   <a href="https://www.linkedin.com/in/himanshu-dhiman-b30611321/" target="_blank"><img src="btn_linkedin.svg" width="130" alt="LinkedIn Button" /></a>
   &nbsp;
-  <a href="https://twitter.com" target="_blank"><img src="btn_twitter.svg" width="130" alt="Twitter Button" /></a>
+  <a href="https://twitter.com" target="https://x.com/Himanxhu047"><img src="btn_twitter.svg" width="130" alt="Twitter Button" /></a>
   &nbsp;
   <a href="mailto:himanshu.hry26@gmail.com"><img src="btn_email.svg" width="130" alt="Email Button" /></a>
   &nbsp;

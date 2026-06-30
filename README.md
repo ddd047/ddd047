@@ -76,7 +76,7 @@ ddd047@spidey-lab:~$ ./bio.sh
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=ddd047&theme=dark&background=0a0005&ring=cc0000&fire=ff4444&currStreakLabel=cc0000&currStreakLabel=cc0000&sideLabels=880000&border=2a0015&dates=888888" />
 </div>
 
 ---

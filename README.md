@@ -36,6 +36,37 @@ ddd047@spidey-lab:~$ ./bio.sh
 
 ---
 
+### 〉 TECH.STACK
+
+<div align="center">
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
+  
+  <br><br>
+
+  <!-- Frameworks & Data -->
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+  
+  <br><br>
+
+  <!-- OS & DevOps -->
+  <img src="https://img.shields.io/badge/Fedora-3C6EB4?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</div>
+
+---
+
 ### 〉 LANGUAGES.WEB
 
 <div align="center">
@@ -90,11 +121,15 @@ ddd047 = {
 
 ---
 
-<!-- FOOTER -->
+  <!-- FOOTER -->
 <div align="center">
   <img src="footer.svg" width="800" alt="Footer Web" />
   <br>
+<<<<<<< HEAD
   <img src="https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000%C2%A2er=true&vCenter=true&width=500&lines=%F0%9F%95%B7+ddd047+%C2%B7+swinging+through+code+since+day+one+%F0%9F%95%B7" alt="footer text" />
+=======
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3000&pause=1000&color=cc0000&center=true&vCenter=true&width=500&lines=🕷+ddd047+·+swinging+through+code+since+day+one+🕷" alt="footer text" />
+>>>>>>> 140e1d8 (adding techstack)
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=ddd047&style=for-the-badge&color=cc0000&labelColor=0a0005&label=VISITORS" alt="Visitor Count" />
 </div>

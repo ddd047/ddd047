@@ -69,41 +69,56 @@ Loads the animated progress bars indicating your programming and tool levels fro
 
 ---
 
-## 5. Languages Web and Streaks (Lines 39 to 52)
+## 5. Tech Stack Badges (Lines 43 to 70)
+
+Displays a centered collection of themed skill badges representing your programming languages, frameworks, operating systems, and developer tools.
+
+### Code Block
+* **Start Line:** 43
+* **End Line:** 70
+
+### Key Keywords Explained
+* **`https://img.shields.io/badge/...`**: Directs to the Shields.io badge generator, creating customized rounded badges for Python, C, C++, FastAPI, Git, GitHub, Fedora, Jupyter Notebook, and SQL.
+* **`style=for-the-badge`**: Sets the badge layout style to a bold rectangular format.
+* **`logo=...`**: Imports the official developer logo/icon inside each badge (e.g. the Python logo, FastAPI logo).
+* **`logoColor=white`**: Sets the icon color to white.
+
+---
+
+## 6. Languages Web and Streaks (Lines 74 to 87)
 
 Displays a custom segmented bar mapping your top programming languages, alongside your contribution streaks.
 
 ### Code Block
-* **Start Line:** 39
-* **End Line:** 52
+* **Start Line:** 74
+* **End Line:** 87
 
 ### SVG Graphic File Details ([languages.svg](file:///home/ddd0604/ddd047repo/languages.svg))
 * Inside `languages.svg`, we draw a segmented progress bar representing your top languages (Python: 75%, Jupyter: 15%, Web: 10%). 
 * We use CSS hover rules (`.segment:hover`) inside the SVG so that when users hover over each colored bar segment, it increases in height slightly (`scaleY(1.2)`) to create a smooth interactive dashboard effect.
-* **`<br>` (Break):** HTML tag to start a new blank line.
 
 ---
 
-## 6. Lab Environment (Lines 55 to 65)
+## 7. Lab Environment (Lines 88 to 98)
 
 Displays a block representing a Python dictionary listing your current projects and learning focus.
 
 ### Code Block
-* **Start Line:** 55
-* **End Line:** 65
+* **Start Line:** 88
+* **End Line:** 98
 
 ### Key Keywords Explained
 * **````python ... ````**: Markdown python code block formatting. It auto-colors code keywords to make it look like a real IDE/code editor.
 
 ---
 
-## 7. Social Links Button Row (Lines 69 to 81)
+## 8. Social Links Button Row (Lines 102 to 114)
 
 Displays interactive vector button images that open your LinkedIn, Email, Twitter/X, and Blog profiles.
 
 ### Code Block
-* **Start Line:** 69
-* **End Line:** 81
+* **Start Line:** 102
+* **End Line:** 114
 
 ### Key Keywords Explained
 * **`<a>` (Anchor link):** Makes anything inside it clickable.
@@ -113,23 +128,23 @@ Displays interactive vector button images that open your LinkedIn, Email, Twitte
 
 ---
 
-## 8. Contribution Web Graph (Lines 85 to 91)
+## 9. Contribution Web Graph (Lines 118 to 124)
 
 Imports a dynamic line graph reflecting your weekly coding contribution history.
 
 ### Code Block
-* **Start Line:** 85
-* **End Line:** 91
+* **Start Line:** 118
+* **End Line:** 124
 
 ---
 
-## 9. Footer and Visitor Count (Lines 95 to 102)
+## 10. Footer and Visitor Count (Lines 128 to 142)
 
 Closes the profile with a spider-web pattern, typing copyright quote, and a badge counting total profile visitors.
 
 ### Code Block
-* **Start Line:** 95
-* **End Line:** 102
+* **Start Line:** 128
+* **End Line:** 142
 
 ### SVG Graphic File Details ([footer.svg](file:///home/ddd0604/ddd047repo/footer.svg))
 * Contains coordinate lines (`<line>`) that connect at a single top node to draw a custom hanging spider-web graphic at the bottom of the page.
